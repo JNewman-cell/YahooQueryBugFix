@@ -18,6 +18,20 @@ This GitHub Actions run is a real-world example of someone expecting a parsable 
 
 https://github.com/JNewman-cell/StockInformationWebsiteGithubActions/actions/runs/18789336097/job/53615494426
 
+Behavior
+-------
+Old Response:
+{'EAI': 'No fundamentals data found for symbol: EAI'}
+New Response:
+{
+    "error": {
+        "code": 404,
+        "type": "NotFoundError", 
+        "message": "No fundamentals data found for symbol: EAI",
+        "symbol": "EAI"
+    }
+}
+
 Reproduction
 ------------
 1. Create a virtual environment and install `yahooquery`.
