@@ -12,6 +12,12 @@ When calling any quoteSummary-based property (such as `asset_profile`, `earnings
 
 This systematic inconsistency affects **15 out of 17 quoteSummary properties** and causes downstream code that expects consistent dict-of-dicts structures to fail or misinterpret responses across different asset classes.
 
+Real-world Impact
+----------------
+This GitHub Actions run is a real-world example of someone expecting a parsable JSON response yet receiving an unexpected response from the API.
+
+https://github.com/JNewman-cell/StockInformationWebsiteGithubActions/actions/runs/18789336097/job/53615494426
+
 Reproduction
 ------------
 1. Create a virtual environment and install `yahooquery`.
@@ -323,9 +329,3 @@ result = ticker_obj.technical_insights
 - **The same property call** might work for Apple but fail for a small biotech
 - **There's no pattern** - some small caps work fine, others fail catastrophically  
 - **Defensive coding** is required for every single API call across every ticker type
-
-### **Real-world Impact**
-
-This GitHub Actions run is a real-world example of someone expecting a parsable JSON response yet receiving an unexpected response from the API.
-
-https://github.com/JNewman-cell/StockInformationWebsiteGithubActions/actions/runs/18789336097/job/53615494426
