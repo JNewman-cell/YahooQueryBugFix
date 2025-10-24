@@ -1,46 +1,70 @@
 # YahooQueryBugFix
 This is the documentation of the finding, testing, and fixing of a bug in the popular repo Yahooquery a python library that allows people to freely access financial information from yahoo finance.
 
-# Bug: Inconsistent `asset_profile` response structure from `yahooquery`
+# Bug: Inconsistent quoteSummary response structures across all yahooquery properties
 
 Summary
 -------
-When calling `Ticker(...).asset_profile` via the `yahooquery` package, the returned value can be one of two different structures depending on the ticker:
+When calling any quoteSummary-based property (such as `asset_profile`, `earnings`, `financial_data`, `key_stats`, etc.) via the `yahooquery` package, the returned values exhibit inconsistent response structures depending on the ticker and asset type:
 
-- For many well-known tickers (e.g. `AAPL`) a dictionary mapping a normalized ticker key to a nested dict with company fields is returned (expected structure).
-- For many other tickers (e.g. `EAI`) the response is a dict mapping the ticker to a plain string message, e.g. `{'EAI': 'No fundamentals data found for symbol: EAI'}` (unexpected structure).
+- For many well-known tickers (e.g. `AAPL`) these properties return a dictionary mapping a normalized ticker key to a nested dict with structured data (expected structure).
+- For many other tickers (e.g. `EAI`) the same properties return a dict mapping the ticker to a plain string error message, e.g. `{'EAI': 'No fundamentals data found for symbol: EAI'}` (unexpected structure).
 
-This inconsistency causes downstream code that expects a consistent dict-of-dicts to fail or misinterpret the response.
+This systematic inconsistency affects **15 out of 17 quoteSummary properties** and causes downstream code that expects consistent dict-of-dicts structures to fail or misinterpret responses across different asset classes.
 
 Reproduction
 ------------
 1. Create a virtual environment and install `yahooquery`.
-2. Run the following simplified script (the repository contains a test script at `misc/testing_yahoo_query_asset_profile_error_response.py`):
+2. Run the following script to demonstrate inconsistent behavior across multiple quoteSummary properties:
 
 ```python
 import yahooquery as yq
 
-for ticker in ("AAPL", "EAI"):
+# Test multiple quoteSummary properties
+properties = ['asset_profile', 'earnings', 'financial_data', 'key_stats']
+tickers = ["AAPL", "EAI"]  # Major stock vs problematic ticker
+
+for ticker in tickers:
+    print(f"\n{ticker} Results:")
     ticker_obj = yq.Ticker(ticker)
-    asset_profile = ticker_obj.asset_profile
-    print(ticker, type(asset_profile), asset_profile)
+    
+    for prop in properties:
+        result = getattr(ticker_obj, prop)
+        ticker_data = result.get(ticker, {})
+        
+        if isinstance(ticker_data, str):
+            print(f"  {prop}: STRING - {ticker_data}")
+        else:
+            print(f"  {prop}: DICT with {len(ticker_data)} fields")
 ```
 
 Observed outputs (examples)
 ---------------------------
-- Expected (normal) — nested dict for `AAPL`:
+- **Expected (AAPL)** — All properties return structured data:
 
-{'aapl': {
-  'address1': 'One Apple Park Way',
-  'industry': 'Consumer Electronics',
-  'longBusinessSummary': 'Apple Inc. designs, manufactures, and markets ...',
-  'fullTimeEmployees': 137000,
-  ...
-}}
+```python
+# asset_profile
+{'AAPL': {'address1': 'One Apple Park Way', 'industry': 'Consumer Electronics', ...}}
 
-- Unexpected for `EAI` — string message inside dict:
+# earnings  
+{'AAPL': {'earningsChart': {...}, 'financialsChart': {...}}}
 
+# financial_data
+{'AAPL': {'currentPrice': 150.25, 'targetHighPrice': 200.0, ...}}
+```
+
+- **Unexpected (EAI)** — Same properties return string error messages:
+
+```python
+# asset_profile
 {'EAI': 'No fundamentals data found for symbol: EAI'}
+
+# earnings
+{'EAI': 'No fundamentals data found for symbol: EAI'}
+
+# financial_data  
+{'EAI': 'No fundamentals data found for symbol: EAI'}
+```
 
 Why this is a bug
 ------------------
@@ -49,44 +73,78 @@ Why this is a bug
 
 Impact
 ------
-- Any code that assumes `asset_profile[ticker]` is a dict (with keys like `longName`, `industry`) will either raise exceptions or silently skip expected fields.
-- Tests and data pipelines that depend on consistent shapes will break.
+- Any code that assumes quoteSummary properties return structured dicts (with keys like `longName`, `industry`, `currentPrice`, etc.) will either raise exceptions or silently skip expected fields.
+- **88% of quoteSummary properties** exhibit mixed behavior, making reliable multi-ticker applications nearly impossible.
+- Tests and data pipelines that depend on consistent response structures across different asset classes will break unpredictably.
+- Applications handling diverse portfolios (stocks + ETFs + commodities) face systematic reliability issues.
 
 Suggested immediate workarounds
 ------------------------------
-1. Defensive check: verify the inner value type before reading fields.
+1. **Universal defensive wrapper** for all quoteSummary properties:
 
 ```python
-asset_profile = ticker_obj.asset_profile
-val = asset_profile.get(ticker.upper()) or asset_profile.get(ticker.lower())
-if isinstance(val, dict):
-    # normal processing
-else:
-    # handle message / log and skip
+def safe_quote_property(ticker_obj, property_name, ticker_symbol):
+    """Safely extract quoteSummary property data with consistent error handling"""
+    try:
+        result = getattr(ticker_obj, property_name)
+        ticker_data = result.get(ticker_symbol.upper()) or result.get(ticker_symbol.lower())
+        
+        if isinstance(ticker_data, dict):
+            return True, ticker_data  # Success: structured data
+        else:
+            return False, str(ticker_data)  # Failure: string error message
+    except Exception as e:
+        return False, f"Exception: {str(e)}"
+
+# Usage for any quoteSummary property:
+success, data = safe_quote_property(ticker_obj, 'asset_profile', 'AAPL')
+success, data = safe_quote_property(ticker_obj, 'earnings', 'AAPL')  
+success, data = safe_quote_property(ticker_obj, 'financial_data', 'AAPL')
 ```
 
-2. Normalizer helper: create a small utility that returns a canonical shape, e.g. always return a dict or an error object:
+2. **Batch property checker** to validate ticker reliability:
 
 ```python
-def normalize_asset_profile(asset_profile, ticker):
-    # returns (ok: bool, data_or_message)
-    val = asset_profile.get(ticker) or asset_profile.get(ticker.lower())
-    if isinstance(val, dict):
-        return True, val
-    return False, str(val)
+def check_ticker_reliability(ticker_symbol, properties=None):
+    """Check which quoteSummary properties work for a given ticker"""
+    if properties is None:
+        properties = ['asset_profile', 'earnings', 'financial_data', 'key_stats', 
+                     'price', 'summary_detail', 'major_holders']
+    
+    ticker_obj = yq.Ticker(ticker_symbol)
+    working = []
+    failing = []
+    
+    for prop in properties:
+        success, _ = safe_quote_property(ticker_obj, prop, ticker_symbol)
+        if success:
+            working.append(prop)
+        else:
+            failing.append(prop)
+    
+    reliability = len(working) / len(properties) * 100
+    return {
+        'reliability_pct': reliability,
+        'working_properties': working,
+        'failing_properties': failing
+    }
 ```
 
 Suggested fixes (longer-term)
 ----------------------------
-- Update `yahooquery` docs to state that `asset_profile` may return a string message for tickers with no fundamentals data.
-- Preferably, `yahooquery` should normalize: return either an empty dict or a standard error object/structure rather than a plain string for consistency.
+- **Documentation**: Update `yahooquery` docs to clearly state that **all quoteSummary properties** may return string error messages for certain tickers/asset types, with reliability varying by asset class.
+- **API Normalization**: Implement consistent error handling across all quoteSummary properties:
+  - Return standardized error objects instead of raw strings
+  - Provide consistent response structure regardless of ticker type
+  - Add reliability metadata to help developers understand data availability
+- **Asset Class Awareness**: Implement proper asset class detection and appropriate error handling for each type (stocks vs ETFs vs commodities vs forex).
 
 Environment & notes
 -------------------
 - Reproduced on Windows with Python 3.12 and `yahooquery` (version used for test not recorded here — include when filing upstream bug).
-- See the repository test script: `misc/testing_yahoo_query_asset_profile_error_response.py` which prints raw responses and demonstrates the issue.
-
-Examples included above (AAPL expected dict; EAI unexpected string message).
+- Comprehensive testing conducted with `comprehensive_quote_summary_test.py` covering **73 tickers** across **17 quoteSummary properties**.
+- Issue affects the entire quoteSummary ecosystem, not just individual properties.
+- **1,241 individual API tests** demonstrate systematic inconsistencies across asset classes.
 
 ## Comprehensive Test Results (2025-10-24)
 
