@@ -323,3 +323,9 @@ result = ticker_obj.technical_insights
 - **The same property call** might work for Apple but fail for a small biotech
 - **There's no pattern** - some small caps work fine, others fail catastrophically  
 - **Defensive coding** is required for every single API call across every ticker type
+
+### **Real-world Impact**
+
+This GitHub Actions run is a real-world example of someone expecting a parsable JSON response yet receiving an unexpected response from the API.
+
+https://github.com/JNewman-cell/StockInformationWebsiteGithubActions/actions/runs/18789336097/job/53615494426
