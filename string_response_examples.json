@@ -1,0 +1,1622 @@
+{
+  "calendar_events_SPY": {
+    "ticker": "SPY",
+    "property": "calendar_events",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:13.758616"
+  },
+  "earnings_SPY": {
+    "ticker": "SPY",
+    "property": "earnings",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:13.867294"
+  },
+  "earnings_trend_SPY": {
+    "ticker": "SPY",
+    "property": "earnings_trend",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:13.976807"
+  },
+  "esg_scores_SPY": {
+    "ticker": "SPY",
+    "property": "esg_scores",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:14.083459"
+  },
+  "financial_data_SPY": {
+    "ticker": "SPY",
+    "property": "financial_data",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:14.192594"
+  },
+  "index_trend_SPY": {
+    "ticker": "SPY",
+    "property": "index_trend",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:14.300646"
+  },
+  "industry_trend_SPY": {
+    "ticker": "SPY",
+    "property": "industry_trend",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:14.414696"
+  },
+  "major_holders_SPY": {
+    "ticker": "SPY",
+    "property": "major_holders",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:14.638842"
+  },
+  "share_purchase_activity_SPY": {
+    "ticker": "SPY",
+    "property": "share_purchase_activity",
+    "description": "SPDR S&P 500 ETF",
+    "string_message": "No fundamentals data found for symbol: SPY",
+    "full_response": {
+      "SPY": "No fundamentals data found for symbol: SPY"
+    },
+    "timestamp": "2025-10-24T14:31:15.378179"
+  },
+  "calendar_events_QQQ": {
+    "ticker": "QQQ",
+    "property": "calendar_events",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.174406"
+  },
+  "earnings_QQQ": {
+    "ticker": "QQQ",
+    "property": "earnings",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.303861"
+  },
+  "earnings_trend_QQQ": {
+    "ticker": "QQQ",
+    "property": "earnings_trend",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.418386"
+  },
+  "esg_scores_QQQ": {
+    "ticker": "QQQ",
+    "property": "esg_scores",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.533793"
+  },
+  "financial_data_QQQ": {
+    "ticker": "QQQ",
+    "property": "financial_data",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.652783"
+  },
+  "index_trend_QQQ": {
+    "ticker": "QQQ",
+    "property": "index_trend",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.787909"
+  },
+  "industry_trend_QQQ": {
+    "ticker": "QQQ",
+    "property": "industry_trend",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:16.896553"
+  },
+  "calendar_events_IWM": {
+    "ticker": "IWM",
+    "property": "calendar_events",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.121425"
+  },
+  "major_holders_QQQ": {
+    "ticker": "QQQ",
+    "property": "major_holders",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:17.124829"
+  },
+  "earnings_IWM": {
+    "ticker": "IWM",
+    "property": "earnings",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.233245"
+  },
+  "earnings_trend_IWM": {
+    "ticker": "IWM",
+    "property": "earnings_trend",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.346990"
+  },
+  "esg_scores_IWM": {
+    "ticker": "IWM",
+    "property": "esg_scores",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.501049"
+  },
+  "share_purchase_activity_QQQ": {
+    "ticker": "QQQ",
+    "property": "share_purchase_activity",
+    "description": "Invesco QQQ Trust ETF",
+    "string_message": "No fundamentals data found for symbol: QQQ",
+    "full_response": {
+      "QQQ": "No fundamentals data found for symbol: QQQ"
+    },
+    "timestamp": "2025-10-24T14:31:17.584125"
+  },
+  "financial_data_IWM": {
+    "ticker": "IWM",
+    "property": "financial_data",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.604217"
+  },
+  "index_trend_IWM": {
+    "ticker": "IWM",
+    "property": "index_trend",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.712973"
+  },
+  "industry_trend_IWM": {
+    "ticker": "IWM",
+    "property": "industry_trend",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:17.820860"
+  },
+  "major_holders_IWM": {
+    "ticker": "IWM",
+    "property": "major_holders",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:18.115073"
+  },
+  "share_purchase_activity_IWM": {
+    "ticker": "IWM",
+    "property": "share_purchase_activity",
+    "description": "iShares Russell 2000 ETF",
+    "string_message": "No fundamentals data found for symbol: IWM",
+    "full_response": {
+      "IWM": "No fundamentals data found for symbol: IWM"
+    },
+    "timestamp": "2025-10-24T14:31:18.626300"
+  },
+  "esg_scores_ASML": {
+    "ticker": "ASML",
+    "property": "esg_scores",
+    "description": "ASML - European ADR",
+    "string_message": "No fundamentals data found for symbol: ASML",
+    "full_response": {
+      "ASML": "No fundamentals data found for symbol: ASML"
+    },
+    "timestamp": "2025-10-24T14:31:20.432534"
+  },
+  "esg_scores_TSM": {
+    "ticker": "TSM",
+    "property": "esg_scores",
+    "description": "Taiwan Semiconductor - Asian ADR",
+    "string_message": "No fundamentals data found for symbol: TSM",
+    "full_response": {
+      "TSM": "No fundamentals data found for symbol: TSM"
+    },
+    "timestamp": "2025-10-24T14:31:23.058990"
+  },
+  "esg_scores_NVO": {
+    "ticker": "NVO",
+    "property": "esg_scores",
+    "description": "Novo Nordisk - Danish ADR",
+    "string_message": "No fundamentals data found for symbol: NVO",
+    "full_response": {
+      "NVO": "No fundamentals data found for symbol: NVO"
+    },
+    "timestamp": "2025-10-24T14:31:23.580521"
+  },
+  "esg_scores_UL": {
+    "ticker": "UL",
+    "property": "esg_scores",
+    "description": "Unilever - British ADR",
+    "string_message": "No fundamentals data found for symbol: UL",
+    "full_response": {
+      "UL": "No fundamentals data found for symbol: UL"
+    },
+    "timestamp": "2025-10-24T14:31:26.407863"
+  },
+  "asset_profile_EAI": {
+    "ticker": "EAI",
+    "property": "asset_profile",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:16.196905"
+  },
+  "earnings_EAI": {
+    "ticker": "EAI",
+    "property": "earnings",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:16.443029"
+  },
+  "earnings_trend_EAI": {
+    "ticker": "EAI",
+    "property": "earnings_trend",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:16.558885"
+  },
+  "esg_scores_EAI": {
+    "ticker": "EAI",
+    "property": "esg_scores",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:16.734263"
+  },
+  "financial_data_EAI": {
+    "ticker": "EAI",
+    "property": "financial_data",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:16.842651"
+  },
+  "industry_trend_EAI": {
+    "ticker": "EAI",
+    "property": "industry_trend",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:17.073747"
+  },
+  "key_stats_EAI": {
+    "ticker": "EAI",
+    "property": "key_stats",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:17.196100"
+  },
+  "major_holders_EAI": {
+    "ticker": "EAI",
+    "property": "major_holders",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:17.310736"
+  },
+  "share_purchase_activity_EAI": {
+    "ticker": "EAI",
+    "property": "share_purchase_activity",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:17.775527"
+  },
+  "summary_profile_EAI": {
+    "ticker": "EAI",
+    "property": "summary_profile",
+    "description": "Known problematic ticker",
+    "string_message": "No fundamentals data found for symbol: EAI",
+    "full_response": {
+      "EAI": "No fundamentals data found for symbol: EAI"
+    },
+    "timestamp": "2025-10-24T14:32:18.009430"
+  },
+  "asset_profile_ACRX": {
+    "ticker": "ACRX",
+    "property": "asset_profile",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:19.338200"
+  },
+  "calendar_events_ACRX": {
+    "ticker": "ACRX",
+    "property": "calendar_events",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:19.454071"
+  },
+  "earnings_ACRX": {
+    "ticker": "ACRX",
+    "property": "earnings",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:19.560610"
+  },
+  "earnings_trend_ACRX": {
+    "ticker": "ACRX",
+    "property": "earnings_trend",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:19.673032"
+  },
+  "esg_scores_ACRX": {
+    "ticker": "ACRX",
+    "property": "esg_scores",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:19.783992"
+  },
+  "financial_data_ACRX": {
+    "ticker": "ACRX",
+    "property": "financial_data",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:19.902950"
+  },
+  "index_trend_ACRX": {
+    "ticker": "ACRX",
+    "property": "index_trend",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.043670"
+  },
+  "industry_trend_ACRX": {
+    "ticker": "ACRX",
+    "property": "industry_trend",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.160562"
+  },
+  "key_stats_ACRX": {
+    "ticker": "ACRX",
+    "property": "key_stats",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.268336"
+  },
+  "major_holders_ACRX": {
+    "ticker": "ACRX",
+    "property": "major_holders",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.389620"
+  },
+  "page_views_ACRX": {
+    "ticker": "ACRX",
+    "property": "page_views",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.494845"
+  },
+  "price_ACRX": {
+    "ticker": "ACRX",
+    "property": "price",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.610150"
+  },
+  "share_purchase_activity_ACRX": {
+    "ticker": "ACRX",
+    "property": "share_purchase_activity",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.835434"
+  },
+  "summary_detail_ACRX": {
+    "ticker": "ACRX",
+    "property": "summary_detail",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:20.944632"
+  },
+  "summary_profile_ACRX": {
+    "ticker": "ACRX",
+    "property": "summary_profile",
+    "description": "Small pharmaceutical",
+    "string_message": "Quote not found for symbol: ACRX",
+    "full_response": {
+      "ACRX": "Quote not found for symbol: ACRX"
+    },
+    "timestamp": "2025-10-24T14:32:21.065393"
+  },
+  "esg_scores_BTCS": {
+    "ticker": "BTCS",
+    "property": "esg_scores",
+    "description": "Small blockchain company",
+    "string_message": "No fundamentals data found for symbol: BTCS",
+    "full_response": {
+      "BTCS": "No fundamentals data found for symbol: BTCS"
+    },
+    "timestamp": "2025-10-24T14:32:21.399991"
+  },
+  "esg_scores_EARN": {
+    "ticker": "EARN",
+    "property": "esg_scores",
+    "description": "Ellington Residential - Small REIT",
+    "string_message": "No fundamentals data found for symbol: EARN",
+    "full_response": {
+      "EARN": "No fundamentals data found for symbol: EARN"
+    },
+    "timestamp": "2025-10-24T14:32:27.249712"
+  },
+  "esg_scores_GVSI": {
+    "ticker": "GVSI",
+    "property": "esg_scores",
+    "description": "OTC penny stock",
+    "string_message": "No fundamentals data found for symbol: GVSI",
+    "full_response": {
+      "GVSI": "No fundamentals data found for symbol: GVSI"
+    },
+    "timestamp": "2025-10-24T14:32:36.186395"
+  },
+  "page_views_GVSI": {
+    "ticker": "GVSI",
+    "property": "page_views",
+    "description": "OTC penny stock",
+    "string_message": "No fundamentals data found for symbol: GVSI",
+    "full_response": {
+      "GVSI": "No fundamentals data found for symbol: GVSI"
+    },
+    "timestamp": "2025-10-24T14:32:36.988068"
+  },
+  "esg_scores_OZSC": {
+    "ticker": "OZSC",
+    "property": "esg_scores",
+    "description": "OTC energy company",
+    "string_message": "No fundamentals data found for symbol: OZSC",
+    "full_response": {
+      "OZSC": "No fundamentals data found for symbol: OZSC"
+    },
+    "timestamp": "2025-10-24T14:32:37.522665"
+  },
+  "page_views_OZSC": {
+    "ticker": "OZSC",
+    "property": "page_views",
+    "description": "OTC energy company",
+    "string_message": "No fundamentals data found for symbol: OZSC",
+    "full_response": {
+      "OZSC": "No fundamentals data found for symbol: OZSC"
+    },
+    "timestamp": "2025-10-24T14:32:38.196912"
+  },
+  "asset_profile_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "asset_profile",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:38.806856"
+  },
+  "calendar_events_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "calendar_events",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:38.920976"
+  },
+  "earnings_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "earnings",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.035907"
+  },
+  "earnings_trend_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "earnings_trend",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.148673"
+  },
+  "esg_scores_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "esg_scores",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.260282"
+  },
+  "financial_data_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "financial_data",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.371496"
+  },
+  "index_trend_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "index_trend",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.526183"
+  },
+  "industry_trend_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "industry_trend",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.632647"
+  },
+  "major_holders_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "major_holders",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.873898"
+  },
+  "page_views_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "page_views",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:39.990436"
+  },
+  "asset_profile_^DJI": {
+    "ticker": "^DJI",
+    "property": "asset_profile",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:39.990436"
+  },
+  "calendar_events_^DJI": {
+    "ticker": "^DJI",
+    "property": "calendar_events",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.110161"
+  },
+  "earnings_^DJI": {
+    "ticker": "^DJI",
+    "property": "earnings",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.235283"
+  },
+  "share_purchase_activity_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "share_purchase_activity",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:40.327952"
+  },
+  "earnings_trend_^DJI": {
+    "ticker": "^DJI",
+    "property": "earnings_trend",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.350629"
+  },
+  "esg_scores_^DJI": {
+    "ticker": "^DJI",
+    "property": "esg_scores",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.521602"
+  },
+  "summary_profile_^GSPC": {
+    "ticker": "^GSPC",
+    "property": "summary_profile",
+    "description": "S&P 500 Index",
+    "string_message": "No fundamentals data found for symbol: ^GSPC",
+    "full_response": {
+      "^GSPC": "No fundamentals data found for symbol: ^GSPC"
+    },
+    "timestamp": "2025-10-24T14:32:40.550615"
+  },
+  "financial_data_^DJI": {
+    "ticker": "^DJI",
+    "property": "financial_data",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.643416"
+  },
+  "index_trend_^DJI": {
+    "ticker": "^DJI",
+    "property": "index_trend",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.760420"
+  },
+  "industry_trend_^DJI": {
+    "ticker": "^DJI",
+    "property": "industry_trend",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:40.874185"
+  },
+  "major_holders_^DJI": {
+    "ticker": "^DJI",
+    "property": "major_holders",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:41.124741"
+  },
+  "page_views_^DJI": {
+    "ticker": "^DJI",
+    "property": "page_views",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:41.320409"
+  },
+  "share_purchase_activity_^DJI": {
+    "ticker": "^DJI",
+    "property": "share_purchase_activity",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:41.685127"
+  },
+  "asset_profile_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "asset_profile",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:41.751303"
+  },
+  "calendar_events_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "calendar_events",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:41.872256"
+  },
+  "summary_profile_^DJI": {
+    "ticker": "^DJI",
+    "property": "summary_profile",
+    "description": "Dow Jones Industrial Average",
+    "string_message": "No fundamentals data found for symbol: ^DJI",
+    "full_response": {
+      "^DJI": "No fundamentals data found for symbol: ^DJI"
+    },
+    "timestamp": "2025-10-24T14:32:41.917410"
+  },
+  "earnings_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "earnings",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:41.986783"
+  },
+  "earnings_trend_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "earnings_trend",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:42.101580"
+  },
+  "esg_scores_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "esg_scores",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:42.211136"
+  },
+  "financial_data_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "financial_data",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:42.354637"
+  },
+  "index_trend_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "index_trend",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:42.475388"
+  },
+  "industry_trend_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "industry_trend",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:42.592916"
+  },
+  "major_holders_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "major_holders",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:42.893119"
+  },
+  "asset_profile_^VIX": {
+    "ticker": "^VIX",
+    "property": "asset_profile",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:42.980100"
+  },
+  "page_views_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "page_views",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:43.004107"
+  },
+  "calendar_events_^VIX": {
+    "ticker": "^VIX",
+    "property": "calendar_events",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.095792"
+  },
+  "earnings_^VIX": {
+    "ticker": "^VIX",
+    "property": "earnings",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.205422"
+  },
+  "earnings_trend_^VIX": {
+    "ticker": "^VIX",
+    "property": "earnings_trend",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.315566"
+  },
+  "share_purchase_activity_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "share_purchase_activity",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:43.375395"
+  },
+  "esg_scores_^VIX": {
+    "ticker": "^VIX",
+    "property": "esg_scores",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.417767"
+  },
+  "financial_data_^VIX": {
+    "ticker": "^VIX",
+    "property": "financial_data",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.528900"
+  },
+  "summary_profile_^IXIC": {
+    "ticker": "^IXIC",
+    "property": "summary_profile",
+    "description": "NASDAQ Composite",
+    "string_message": "No fundamentals data found for symbol: ^IXIC",
+    "full_response": {
+      "^IXIC": "No fundamentals data found for symbol: ^IXIC"
+    },
+    "timestamp": "2025-10-24T14:32:43.610309"
+  },
+  "index_trend_^VIX": {
+    "ticker": "^VIX",
+    "property": "index_trend",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.655952"
+  },
+  "industry_trend_^VIX": {
+    "ticker": "^VIX",
+    "property": "industry_trend",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.764204"
+  },
+  "major_holders_^VIX": {
+    "ticker": "^VIX",
+    "property": "major_holders",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:43.981115"
+  },
+  "page_views_^VIX": {
+    "ticker": "^VIX",
+    "property": "page_views",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:44.091544"
+  },
+  "share_purchase_activity_^VIX": {
+    "ticker": "^VIX",
+    "property": "share_purchase_activity",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:44.426699"
+  },
+  "summary_profile_^VIX": {
+    "ticker": "^VIX",
+    "property": "summary_profile",
+    "description": "CBOE Volatility Index",
+    "string_message": "No fundamentals data found for symbol: ^VIX",
+    "full_response": {
+      "^VIX": "No fundamentals data found for symbol: ^VIX"
+    },
+    "timestamp": "2025-10-24T14:32:44.698067"
+  },
+  "asset_profile_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "asset_profile",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.017730"
+  },
+  "calendar_events_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "calendar_events",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.134307"
+  },
+  "earnings_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "earnings",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.251428"
+  },
+  "earnings_trend_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "earnings_trend",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.367148"
+  },
+  "esg_scores_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "esg_scores",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.487462"
+  },
+  "financial_data_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "financial_data",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.599235"
+  },
+  "index_trend_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "index_trend",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.716281"
+  },
+  "industry_trend_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "industry_trend",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.820070"
+  },
+  "key_stats_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "key_stats",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:45.929055"
+  },
+  "major_holders_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "major_holders",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.039548"
+  },
+  "page_views_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "page_views",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.157582"
+  },
+  "asset_profile_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "asset_profile",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.261195"
+  },
+  "calendar_events_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "calendar_events",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.376261"
+  },
+  "earnings_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "earnings",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.482367"
+  },
+  "share_purchase_activity_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "share_purchase_activity",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.489690"
+  },
+  "earnings_trend_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "earnings_trend",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.596326"
+  },
+  "summary_profile_EURUSD=X": {
+    "ticker": "EURUSD=X",
+    "property": "summary_profile",
+    "description": "Euro/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: EURUSD=X",
+    "full_response": {
+      "EURUSD=X": "No fundamentals data found for symbol: EURUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.703452"
+  },
+  "esg_scores_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "esg_scores",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.711456"
+  },
+  "financial_data_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "financial_data",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.821404"
+  },
+  "index_trend_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "index_trend",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:46.980260"
+  },
+  "industry_trend_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "industry_trend",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:47.085326"
+  },
+  "key_stats_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "key_stats",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:47.251065"
+  },
+  "major_holders_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "major_holders",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:47.355208"
+  },
+  "page_views_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "page_views",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:47.465865"
+  },
+  "share_purchase_activity_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "share_purchase_activity",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:47.795024"
+  },
+  "asset_profile_GC=F": {
+    "ticker": "GC=F",
+    "property": "asset_profile",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:47.971497"
+  },
+  "summary_profile_GBPUSD=X": {
+    "ticker": "GBPUSD=X",
+    "property": "summary_profile",
+    "description": "GBP/USD currency pair",
+    "string_message": "No fundamentals data found for symbol: GBPUSD=X",
+    "full_response": {
+      "GBPUSD=X": "No fundamentals data found for symbol: GBPUSD=X"
+    },
+    "timestamp": "2025-10-24T14:32:48.014267"
+  },
+  "calendar_events_GC=F": {
+    "ticker": "GC=F",
+    "property": "calendar_events",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.082317"
+  },
+  "earnings_GC=F": {
+    "ticker": "GC=F",
+    "property": "earnings",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.200487"
+  },
+  "earnings_trend_GC=F": {
+    "ticker": "GC=F",
+    "property": "earnings_trend",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.310938"
+  },
+  "esg_scores_GC=F": {
+    "ticker": "GC=F",
+    "property": "esg_scores",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.419143"
+  },
+  "financial_data_GC=F": {
+    "ticker": "GC=F",
+    "property": "financial_data",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.670289"
+  },
+  "index_trend_GC=F": {
+    "ticker": "GC=F",
+    "property": "index_trend",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.779714"
+  },
+  "industry_trend_GC=F": {
+    "ticker": "GC=F",
+    "property": "industry_trend",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.887151"
+  },
+  "key_stats_GC=F": {
+    "ticker": "GC=F",
+    "property": "key_stats",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:48.999730"
+  },
+  "major_holders_GC=F": {
+    "ticker": "GC=F",
+    "property": "major_holders",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.112991"
+  },
+  "asset_profile_CL=F": {
+    "ticker": "CL=F",
+    "property": "asset_profile",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.147264"
+  },
+  "page_views_GC=F": {
+    "ticker": "GC=F",
+    "property": "page_views",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.226623"
+  },
+  "calendar_events_CL=F": {
+    "ticker": "CL=F",
+    "property": "calendar_events",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.262345"
+  },
+  "earnings_CL=F": {
+    "ticker": "CL=F",
+    "property": "earnings",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.378741"
+  },
+  "earnings_trend_CL=F": {
+    "ticker": "CL=F",
+    "property": "earnings_trend",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.492173"
+  },
+  "share_purchase_activity_GC=F": {
+    "ticker": "GC=F",
+    "property": "share_purchase_activity",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.559497"
+  },
+  "esg_scores_CL=F": {
+    "ticker": "CL=F",
+    "property": "esg_scores",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.608067"
+  },
+  "financial_data_CL=F": {
+    "ticker": "CL=F",
+    "property": "financial_data",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.716170"
+  },
+  "summary_profile_GC=F": {
+    "ticker": "GC=F",
+    "property": "summary_profile",
+    "description": "Gold futures",
+    "string_message": "No fundamentals data found for symbol: GC=F",
+    "full_response": {
+      "GC=F": "No fundamentals data found for symbol: GC=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.771107"
+  },
+  "index_trend_CL=F": {
+    "ticker": "CL=F",
+    "property": "index_trend",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.824095"
+  },
+  "industry_trend_CL=F": {
+    "ticker": "CL=F",
+    "property": "industry_trend",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:49.933487"
+  },
+  "key_stats_CL=F": {
+    "ticker": "CL=F",
+    "property": "key_stats",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:50.047006"
+  },
+  "major_holders_CL=F": {
+    "ticker": "CL=F",
+    "property": "major_holders",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:50.166419"
+  },
+  "page_views_CL=F": {
+    "ticker": "CL=F",
+    "property": "page_views",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:50.274663"
+  },
+  "share_purchase_activity_CL=F": {
+    "ticker": "CL=F",
+    "property": "share_purchase_activity",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:50.732857"
+  },
+  "summary_profile_CL=F": {
+    "ticker": "CL=F",
+    "property": "summary_profile",
+    "description": "Crude oil futures",
+    "string_message": "No fundamentals data found for symbol: CL=F",
+    "full_response": {
+      "CL=F": "No fundamentals data found for symbol: CL=F"
+    },
+    "timestamp": "2025-10-24T14:32:50.953373"
+  }
+}
